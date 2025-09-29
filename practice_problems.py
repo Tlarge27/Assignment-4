@@ -55,7 +55,7 @@ class TaskQueue:
 
 # Data Structure Choice: deque (double-ended queue)
 # Reason: deque allows O(1) time insertion at the end and removal from the front,
-# which is exactly what a queue needs for efficient FIFO operations.
+# which is exactly what a queue needs for FIFO operations.
 """
 Problem 3: Unique Value Counter
 
